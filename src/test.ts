@@ -3,7 +3,7 @@ import BetamaxCounter, { BetamaxCounterError } from './betamax-timestamp';
 const converter = new BetamaxCounter();
 
 try {
-    // converting video timestamp to a betamax counter:
+    // converting video timestamp to a Betamax counter:
     console.log("Converting timestamp '01:30:00' to counter...");
     const counter = converter.timestampToCounter('01:30:00');
     console.log(`Counter value: ${counter}`);
