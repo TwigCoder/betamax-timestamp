@@ -1,0 +1,19 @@
+{
+  "name": "betamax-timestamp",
+  "version": "1.0.0",
+  "description": "Convert between digital timestamps and Betamax counter numbers",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/test.ts",
+    "build": "tsc",
+    "dev": "ts-node src/test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^x.x.x",
+    "ts-node": "^x.x.x",
+    "typescript": "^x.x.x"
+  }
+}
